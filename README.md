@@ -1,41 +1,41 @@
-# hadoop-hive-docker-lab
+Hadoop Hive Docker Lab
+
+📖 Overview
 This project demonstrates the setup and configuration of a Big Data environment using Docker, Hadoop, Hive, and SQL.
 
-
-**HADOOP HIVE DOCKER LAB**
-
-**OVERVIEW**
-
-This project demonstrates the setup and configuration of a Big Data environment using Docker, Hadoop, Hive, and SQL.
-
-**OBJECTIVES**
-
+🎯 Objectives
 Understand distributed storage concepts
 Configure Hadoop and Hive services
 Execute SQL-like queries using Hive
-Run components in Docker containers
-
-**TECHNOLOGIES**
-
+Run components inside Docker containers
+🛠 Technologies Used
 Docker
 Hadoop
 Hive
 SQL
 Linux
 
-**ARCHITECTURE**
+🏗 Architecture
+Docker Containers
+│
+├── Hadoop NameNode
+├── Hadoop DataNode
+├── Hive Server
+└── Hive Metastore
 
-Docker Containers │ ├── Hadoop NameNode ├── Hadoop DataNode ├── Hive Server └── Hive Metastore
-
-**KEY LEARNING**
-
+🚀 Key Learnings
 Containerized Big Data deployment
 Hive query processing
 Hadoop ecosystem fundamentals
 Data storage and retrieval
+Distributed computing concepts
 
-**FUTURE IMPROVEMENTS**
+🔮 Future Improvements
+Apache Spark integration
+AWS deployment
+Docker Compose automation
+Real-time data processing
 
-Add Apache Spark integration
-Deploy on AWS
-Automate with Docker Compose
+👨‍💻 Author
+Bhargav Venigalla
+Data Engineer | Business Analyst | AI Enthusiast
